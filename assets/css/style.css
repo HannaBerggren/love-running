@@ -21,17 +21,18 @@ body {
     #logo {
         float: left;
         font-size: 280%;
-        margin-left: 30px;
+        margin: 30px;
+    }
+    
+    #menu, #logo {
+        line-height: 75px;
     }
 
-    /* navigation links*/
     #menu {
         font-size: 110%;
         letter-spacing: 4px;
     }
-    #menu, #logo {
-        line-height: 75px;
-    }
+    
 
     #menu li {
         float: right;
@@ -246,7 +247,7 @@ body {
     /* Media queries */
     /* For larger to medium screens size from 1200px wide and down */
 
-    @media screen and (max-width: 1200px) { 
+    @media screen and (max-width: 1200px) {
         
         #club-ethos {
             width: 65%;
@@ -293,7 +294,7 @@ body {
             margin-bottom: 20px;
             line-height: 25px;
         } 
-    }
+    
 
     #cover-text {
         left: 0;
@@ -322,7 +323,7 @@ body {
     #photos {
         column-count: 3;
     }
-
+    }
     /* for smaller screens sizes 800px and down */
     @media screen and (max-width: 800px) {
         #photos {
